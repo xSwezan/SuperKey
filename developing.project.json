@@ -1,0 +1,31 @@
+{
+	"name": "SuperKey",
+	"servePlaceIds": [11693672305],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"$className": "ServerScriptService",
+			"$path": "src/Server"
+		},
+		"ReplicatedStorage": {
+			"$ignoreUnknownInstances": true,
+			"$className": "ReplicatedStorage",
+			"$path": "src/Shared",
+			"Packages": {
+				"$path": "Packages",
+				"MainModule": {
+					"$path": "src/Module"
+				}
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$ignoreUnknownInstances": true,
+				"$className": "StarterPlayerScripts",
+				"$path": "src/Client"
+			}
+		}
+	}
+}
